@@ -1,0 +1,24 @@
+{
+  "name": "make-editable",
+  "version": "0.0.0",
+  "description": "Make given document element editable by user",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test -b -l phantom -q"
+  },
+  "keywords": [
+    "wysiwyg",
+    "content editable",
+    "editor",
+    "html"
+  ],
+  "repository": {
+    "url": "git@github.com:npm-dom/make-editable.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "devDependencies": {
+    "prova": "^2.1.1"
+  }
+}
