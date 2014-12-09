@@ -1,6 +1,6 @@
 ## make-editable
 
-Make given document element editable by user
+Make given element editable by user
 
 ## Install
 
