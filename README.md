@@ -27,33 +27,34 @@ editable.exec(command, value, showDefaultUI)
 
 **Formatting:**
 
-* bold: *bold*
-* italic: *italic*
-* underline: *underline*
-* color: *foreColor*
-* bgcolor: *backColor*
-* fontName: *fontName*
-* fontSize: *fontSize*
-* plain: *removeFormat*
-* center: *justifyCenter*
-* justify: *justifyFull*
-* left: *justifyLeft*
-* right: *justifyRight*
-* indent: *indent*
-* outdent: *outdent*
+* bold: `bold`
+* italic: `italic`
+* underline: `underline`
+* color: `foreColor`
+* bgcolor: `backColor`
+* fontName: `fontName`
+* fontSize: `fontSize`
+* plain: `removeFormat`
+* center: `justifyCenter`
+* justify: `justifyFull`
+* left: `justifyLeft`
+* right: `justifyRight`
+* indent: `indent`
+* outdent: `outdent`
 
 **Elements:**
 
-* img: *insertImage*
-* link: *link*
-* orderedList: *insertOrderedList*
-* unorderedList: *insertUnorderedList*
+* img: `insertImage`
+* link: `link`
+* unlink: `unlink`
+* orderedList: `insertOrderedList`
+* unorderedList: `insertUnorderedList`
 
 **Other:**
 
-* selectAll: *selectAll*
-* undo: *undo*
-* redo: *redo*
-* copy: *copy*
-* paste: *paste*
-* delete: *delete*
+* selectAll: `selectAll`
+* undo: `undo`
+* redo: `redo`
+* copy: `copy`
+* paste: `paste`
+* delete: `delete`
