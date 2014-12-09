@@ -13,8 +13,9 @@ $ npm install make-editable
 ```js
 var makeEditable = require('make-editable')
 
-var editable = makeEditable(document.querySelector('iframe').contentWindow.document)
+var editable = makeEditable(document.body)
 
+editable.selectAll()
 editable.bold()
 editable.link('http://foobar.com')
 editable.img('http://foo.com/bar.jpg')
