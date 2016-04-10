@@ -1,6 +1,6 @@
 {
   "name": "make-editable",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Make given document element editable by user",
   "main": "index.js",
   "scripts": {
