@@ -1,10 +1,10 @@
 var editable = require("../");
-var test = require("prova");
+var test = require("tape");
 
 test('make given document editable', function (t) {
   t.plan(5);
 
-  document.body.innerHTML = '<iframe src="/assets/in/test/frame.html" />';
+  document.body.innerHTML = '<iframe src="./frame.html" />';
 
   var iframe = document.querySelector('iframe');
 

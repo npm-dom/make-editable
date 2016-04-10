@@ -4,7 +4,7 @@
   "description": "Make given document element editable by user",
   "main": "index.js",
   "scripts": {
-    "test": "node test -b -l phantom -q"
+    "test": "browserify test/index.js | tape-run --static=test"
   },
   "keywords": [
     "wysiwyg",
@@ -19,6 +19,8 @@
   "author": "azer",
   "license": "BSD",
   "devDependencies": {
-    "prova": "^2.1.1"
+    "browserify": "13.0.0",
+    "tape": "4.5.1",
+    "tape-run": "2.1.3"
   }
 }
