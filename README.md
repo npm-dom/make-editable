@@ -13,7 +13,7 @@ $ npm install make-editable
 ```js
 var makeEditable = require('make-editable')
 
-var editable = makeEditable(document.body)
+var editable = makeEditable(document)
 
 editable.selectAll()
 editable.bold()
@@ -26,7 +26,7 @@ editable.exec(command, value, showDefaultUI)
 
 * exec: *exec(commandName, value, showUI)*
 
-**Formatting:**
+#### Formatting:
 
 * bold: `bold`
 * italic: `italic`
@@ -43,7 +43,7 @@ editable.exec(command, value, showDefaultUI)
 * indent: `indent`
 * outdent: `outdent`
 
-**Elements:**
+#### Elements:
 
 * img: `insertImage`
 * link: `link`
@@ -51,7 +51,7 @@ editable.exec(command, value, showDefaultUI)
 * orderedList: `insertOrderedList`
 * unorderedList: `insertUnorderedList`
 
-**Other:**
+#### Other:
 
 * selectAll: `selectAll`
 * undo: `undo`
